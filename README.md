@@ -186,4 +186,4 @@ A much larger and more balanced trip dataset would be required before making pro
 
 Nadeem Ahamad
 
-Data Science Internship Project associated with **Hackveda Solutions Private Limited**, focused on geospatial machine learning, destination prediction, model evaluation, and interactive visualization using Python and Scikit-learn.
+Data Science Internship Project associated with **Hackveda Solutions Private Limited Internship**, focused on geospatial machine learning, destination prediction, model evaluation, and interactive visualization using Python and Scikit-learn.
