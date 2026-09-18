@@ -1,0 +1,37 @@
+{
+  "best_model": "RandomForest",
+  "feature_columns": [
+    "latStart",
+    "lonStart",
+    "start_hour",
+    "start_dayofweek",
+    "start_month"
+  ],
+  "dataset_summary": {
+    "rows": 1537,
+    "unique_origins": 24,
+    "unique_destinations": 24,
+    "unique_routes": 24,
+    "largest_route_share": 0.985
+  },
+  "cross_validation": {
+    "RandomForest": {
+      "mean_distance_km": 1434.374,
+      "std_distance_km": 2488.859
+    },
+    "ExtraTrees": {
+      "mean_distance_km": 1496.684,
+      "std_distance_km": 2753.396
+    }
+  },
+  "evaluation": {
+    "test_rows": 6,
+    "mean_distance_error_km": 49.11,
+    "median_distance_error_km": 20.147,
+    "p95_distance_error_km": 156.95
+  },
+  "warnings": [
+    "The dataset is route-imbalanced. Treat results as a prototype, not production accuracy.",
+    "There are too few unique routes for a robust generalization claim."
+  ]
+}
